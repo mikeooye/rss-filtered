@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "rss-filter",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-30",
+  "workers_dev": true,
+  "kv_namespaces": [
+    {
+      "binding": "CONFIG",
+      "id": "0c7a82bd9967467fbbc300367b611ff9"
+    }
+  ],
+  "secrets": {
+    "required": ["ADMIN_PASSWORD", "API_KEY"]
+  }
+}

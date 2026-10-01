@@ -1,0 +1,7 @@
+{
+  "name": "rss-filter",
+  "private": true,
+  "scripts": {
+    "deploy": "npx --yes wrangler@4.145.0 deploy"
+  }
+}
